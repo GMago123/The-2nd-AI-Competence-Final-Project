@@ -1,0 +1,7 @@
+﻿  mydll.cpp
+e:\ai\project\user_packagev1.5\mydll\mydll\mydll.cpp(1822): warning C4018: “>”: 有符号/无符号不匹配
+    正在创建库 E:\AI\Project\User_PackageV1.5\mydll\Release\mydll.lib 和对象 E:\AI\Project\User_PackageV1.5\mydll\Release\mydll.exp
+  正在生成代码
+  All 662 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  mydll.vcxproj -> E:\AI\Project\User_PackageV1.5\mydll\Release\mydll.dll
