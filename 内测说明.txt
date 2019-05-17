@@ -1,0 +1,11 @@
+选手在mydll这个工程里写比赛代码，然后生成解决方案，即可在Release文件夹下找到dll，将其放进Player_dll文件夹，
+在dll_settings.txt里将要使用的四个dll名更改好，之后运行exe即可生成结果文件。
+
+vs12在生成mydll时可能会报错“项目文件包含 ToolsVersion="15.0"。此工具集可能未知或缺失。”，此时需要在项目属性
+的配置属性->常规属性中将平台工具集改成12对应的。
+
+vs17在生成mydll可能会报错：errorRC1015. 
+这时需要将给的afxres.h文件放到VS安装目录下的VS\VC\Auxiliary\VS\include目录下就可以了
+(选择目录的时候注意对应对版本)。
+
+提供的四个代码都是只会造兵的代码。
